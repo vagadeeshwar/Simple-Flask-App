@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+</head>
+
+<body>
+    <h1>Student Details</h1>
+    <table>
+        <tr>
+            <th>Student id</th>
+            <th>Course id</th>
+            <th>Marks</th>
+        </tr>
+        {% for ele in lis %}
+        <tr>
+            <td>{{ ele["student"] }}</td>
+            <td>{{ ele["course"] }}</td>
+            <td>{{ ele["marks"] }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td colspan="2">Total Marks</td>
+            <td>{{ tot }}</td>
+        </tr>
+    </table>
+    <a href="/">Go Back</a>
+</body>
+
+</html>
