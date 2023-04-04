@@ -13,11 +13,11 @@ This repository contains a Flask web application designed to analyze and visuali
 
 1. Clone the repository:
 
-git clone https://github.com/vagadeeshwar//Simple-Flask-App.git
+git clone https://github.com/vagadeeshwar/Simple-Flask-App.git
 
 2. Change the directory:
 
-cd student-performance-analyzer
+cd Simple-Flask-App
 
 3. Create a virtual environment:
 
